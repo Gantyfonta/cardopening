@@ -1,51 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pocket Card Collector</title>
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        @keyframes shimmer {
-            from { background-position: 0% 0%; }
-            to { background-position: 200% 0%; }
-        }
-        @keyframes holographic {
-            0% { background-position: 0% 0%; }
-            100% { background-position: 200% 200%; }
-        }
-        .animate-shimmer {
-            background-size: 200% 100%;
-            animation: shimmer 2s linear infinite;
-        }
-        .holographic-rare {
-            background: linear-gradient(135deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,0) 100%);
-            background-size: 200% 200%;
-            animation: holographic 3s linear infinite;
-            mix-blend-mode: overlay;
-        }
-        .holographic-ultra {
-            background: linear-gradient(135deg, #ff00ff 0%, #00ffff 25%, #ffff00 50%, #00ff00 75%, #ff00ff 100%);
-            background-size: 200% 200%;
-            animation: holographic 2s linear infinite;
-            mix-blend-mode: color-dodge;
-            opacity: 0.4;
-        }
-        .holographic-secret {
-            background: linear-gradient(45deg, #ffd700 0%, #ffffff 25%, #ffd700 50%, #ffffff 75%, #ffd700 100%);
-            background-size: 200% 200%;
-            animation: holographic 1.5s linear infinite;
-            mix-blend-mode: color-dodge;
-            opacity: 0.6;
-        }
-        .perspective-1000 { perspective: 1000px; }
-        .preserve-3d { transform-style: preserve-3d; }
-        .backface-hidden { backface-visibility: hidden; }
-    </style>
-</head>
-<body class="bg-zinc-950 text-zinc-100 antialiased overflow-x-hidden">
+  </head>
+  <body>
     <div id="root"></div>
-    <script type="module" src="src/script.jsx"></script>
-</body>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
