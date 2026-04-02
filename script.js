@@ -16,11 +16,11 @@ const Rarity = {
 };
 
 const CARD_POOL = [
-    { id: "1", name: "Flame Fox", rarity: Rarity.COMMON, type: "Fire", hp: 60, description: "A small fox with a tail that glows like a candle.", imageUrl: "https://picsum.photos/seed/flamefox/400/600" },
-    { id: "2", name: "Aqua Turtle", rarity: Rarity.COMMON, type: "Water", hp: 70, description: "It hides in its shell to avoid predators.", imageUrl: "https://picsum.photos/seed/aquaturtle/400/600" },
-    { id: "3", name: "Leaf Bunny", rarity: Rarity.COMMON, type: "Grass", hp: 50, description: "Its ears look like fresh spring leaves.", imageUrl: "https://picsum.photos/seed/leafbunny/400/600" },
-    { id: "4", name: "Spark Mouse", rarity: Rarity.COMMON, type: "Electric", hp: 40, description: "It stores electricity in its cheeks.", imageUrl: "https://picsum.photos/seed/sparkmouse/400/600" },
-    { id: "5", name: "Shadow Cat", rarity: Rarity.UNCOMMON, type: "Dark", hp: 80, description: "It blends perfectly into the night.", imageUrl: "https://picsum.photos/seed/shadowcat/400/600" },
+    { id: "1", name: "Luminox", rarity: Rarity.COMMON, type: "Fire", hp: 60, description: "A small fox with a tail that glows like a candle.", imageUrl: "https://picsum.photos/seed/flamefox/400/600" },
+    { id: "2", name: "Shellshulk", rarity: Rarity.COMMON, type: "Water", hp: 70, description: "It hides in its shell to avoid predators.", imageUrl: "https://picsum.photos/seed/aquaturtle/400/600" },
+    { id: "3", name: "Bloomhare", rarity: Rarity.COMMON, type: "Grass", hp: 70, description: "It hides among the tall wildflowers, its ears camouflaged to look like budding clovers.", imageUrl: "https://picsum.photos/seed/leafbunny/400/600" },
+    { id: "4", name: "Boltcheek", rarity: Rarity.COMMON, type: "Electric", hp: 60, description: "It stores electricity in its cheeks.", imageUrl: "https://picsum.photos/seed/sparkmouse/400/600" },
+    { id: "5", name: "Umbrafel", rarity: Rarity.UNCOMMON, type: "Dark", hp: 80, description: "It blends perfectly into the night.", imageUrl: "SprootMon Art/umbrafel.png" },
     { id: "6", name: "Iron Golem", rarity: Rarity.UNCOMMON, type: "Steel", hp: 120, description: "A heavy construct made of ancient metal.", imageUrl: "https://picsum.photos/seed/irongolem/400/600" },
     { id: "7", name: "Solar Dragon", rarity: Rarity.RARE, type: "Dragon", hp: 150, description: "A legendary dragon that draws power from the sun.", imageUrl: "https://picsum.photos/seed/solardragon/400/600" },
     { id: "8", name: "Lunar Phoenix", rarity: Rarity.RARE, type: "Psychic", hp: 130, description: "It rises from the ashes under the full moon.", imageUrl: "https://picsum.photos/seed/lunarphoenix/400/600" },
