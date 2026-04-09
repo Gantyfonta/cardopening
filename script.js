@@ -16,27 +16,49 @@ const Rarity = {
 };
 
 const CARD_POOL = [
-    { id: "1", name: "Luminox", rarity: Rarity.COMMON, type: "Fire", hp: 60, description: "A small fox with a tail that glows like a candle.", imageUrl: "https://picsum.photos/seed/flamefox/400/600" },
-    { id: "2", name: "Shellshulk", rarity: Rarity.COMMON, type: "Water", hp: 70, description: "It hides in its shell to avoid predators.", imageUrl: "https://picsum.photos/seed/aquaturtle/400/600" },
-    { id: "3", name: "Bloomhare", rarity: Rarity.COMMON, type: "Grass", hp: 70, description: "It hides among the tall wildflowers, its ears camouflaged to look like budding clovers.", imageUrl: "https://picsum.photos/seed/leafbunny/400/600" },
-    { id: "4", name: "Boltcheek", rarity: Rarity.COMMON, type: "Electric", hp: 60, description: "It stores electricity in its cheeks.", imageUrl: "https://picsum.photos/seed/sparkmouse/400/600" },
+    { id: "1", name: "Luminox", rarity: Rarity.COMMON, type: "Fire", hp: 60, description: "A small fox with a tail that glows like a candle.", imageUrl: "SprootMon Art/luminox.png" },
+    { id: "2", name: "Shellshulk", rarity: Rarity.COMMON, type: "Water", hp: 70, description: "It hides in its shell to avoid predators.", imageUrl: "SprootMon Art/shellshulk.png" },
+    { id: "3", name: "Bloomhare", rarity: Rarity.COMMON, type: "Grass", hp: 70, description: "It hides among the tall wildflowers, its ears camouflaged to look like budding clovers.", imageUrl: "SprootMon Art/bloomhare.png" },
+    { id: "4", name: "Boltcheek", rarity: Rarity.COMMON, type: "Electric", hp: 60, description: "It stores electricity in its cheeks.", imageUrl: "SprootMon Art/boltcheek.png" },
     { id: "5", name: "Umbrafel", rarity: Rarity.UNCOMMON, type: "Dark", hp: 80, description: "It blends perfectly into the night.", imageUrl: "SprootMon Art/umbrafel.png" },
-    { id: "6", name: "Iron Golem", rarity: Rarity.UNCOMMON, type: "Steel", hp: 120, description: "A heavy construct made of ancient metal.", imageUrl: "https://picsum.photos/seed/irongolem/400/600" },
-    { id: "7", name: "Solar Dragon", rarity: Rarity.RARE, type: "Dragon", hp: 150, description: "A legendary dragon that draws power from the sun.", imageUrl: "https://picsum.photos/seed/solardragon/400/600" },
-    { id: "8", name: "Lunar Phoenix", rarity: Rarity.RARE, type: "Psychic", hp: 130, description: "It rises from the ashes under the full moon.", imageUrl: "https://picsum.photos/seed/lunarphoenix/400/600" },
-    { id: "9", name: "Cosmic Whale", rarity: Rarity.ULTRA_RARE, type: "Water", hp: 200, description: "A giant creature that swims through the stars.", imageUrl: "https://picsum.photos/seed/cosmicwhale/400/600" },
-    { id: "10", name: "Void Reaper", rarity: Rarity.SECRET_RARE, type: "Dark", hp: 180, description: "A mysterious entity from the edge of the universe.", imageUrl: "https://picsum.photos/seed/voidreaper/400/600" },
-    { id: "11", name: "Thunder Hawk", rarity: Rarity.UNCOMMON, type: "Electric", hp: 90, description: "Its wings create thunderclaps when it dives.", imageUrl: "https://picsum.photos/seed/thunderhawk/400/600" },
-    { id: "12", name: "Stone Titan", rarity: Rarity.UNCOMMON, type: "Fighting", hp: 140, description: "A mountain that came to life.", imageUrl: "https://picsum.photos/seed/stonetitan/400/600" },
-    { id: "13", name: "Crystal Deer", rarity: Rarity.RARE, type: "Psychic", hp: 110, description: "Its antlers are made of pure diamond.", imageUrl: "https://picsum.photos/seed/crystaldeer/400/600" },
-    { id: "14", name: "Magma Core", rarity: Rarity.RARE, type: "Fire", hp: 160, description: "The living heart of a volcano.", imageUrl: "https://picsum.photos/seed/magmacore/400/600" },
-    { id: "15", name: "Wind Spirit", rarity: Rarity.COMMON, type: "Normal", hp: 40, description: "A gentle breeze that took form.", imageUrl: "https://picsum.photos/seed/windspirit/400/600" },
-    { id: "16", name: "Frost Owl", rarity: Rarity.UNCOMMON, type: "Water", hp: 80, description: "Its feathers are as cold as ice.", imageUrl: "https://picsum.photos/seed/frostowl/400/600" },
-    { id: "17", name: "Earth Golem", rarity: Rarity.COMMON, type: "Fighting", hp: 100, description: "A sturdy guardian made of clay and stone.", imageUrl: "https://picsum.photos/seed/earthgolem/400/600" },
+    { id: "6", name: "Ferroclast", rarity: Rarity.UNCOMMON, type: "Steel", hp: 190, description: "A heavy construct made of ancient metal.", imageUrl: "SprootMon Art/ferroclast.png" },
+    { id: "7", name: "Solarix", rarity: Rarity.RARE, type: "Dragon", hp: 150, description: "A legendary dragon that draws power from the sun.", imageUrl: "SprootMon Art/solarix.png" },
+    { id: "8", name: "Selenalux", rarity: Rarity.RARE, type: "Psychic", hp: 130, description: "It rises from the ashes under the full moon.", imageUrl: "SprootMon Art/selenalux.png" },
+    { id: "9", name: "Astracetus", rarity: Rarity.ULTRA_RARE, type: "Water", hp: 200, description: "A giant creature that swims through the stars.", imageUrl: "SprootMon Art/astracetus.png" },
+    { id: "10", name: "Gloomgrin", rarity: Rarity.SECRET_RARE, type: "Dark", hp: 110, description: "A cartoonish entity from the edge of the universe.", imageUrl: "SprootMon Art/gloomgrin.png" },
+    { id: "11", name: "Fulguraptor", rarity: Rarity.UNCOMMON, type: "Electric", hp: 90, description: "Its wings create thunderclaps when it dives.", imageUrl: "SprootMon Art/fulguraptor.png" },
+    { id: "12", name: "Montlith", rarity: Rarity.UNCOMMON, type: "Fighting", hp: 140, description: "A mountain that came to life.", imageUrl: "SprootMon Art/montlith.png" },
+    { id: "13", name: "Diamantler", rarity: Rarity.RARE, type: "Psychic", hp: 110, description: "Its antlers are made of pure diamond.", imageUrl: "SprootMon Art/diamantler.png" },
+    { id: "14", name: "Pyreclasm", rarity: Rarity.RARE, type: "Fire", hp: 160, description: "The living heart of a volcano.", imageUrl: "SprootMon Art/pyreclasm.png" },
+    { id: "15", name: "Zephyrlit", rarity: Rarity.COMMON, type: "Normal", hp: 40, description: "A gentle breeze that took form.", imageUrl: "SprootMon Art/zephyrlit.png" },
+    { id: "16", name: "Glaciwing", rarity: Rarity.UNCOMMON, type: "Water", hp: 80, description: "Its feathers are as cold as ice.", imageUrl: "SprootMon Art/glaciwing.png" },
+    { id: "17", name: "Pebblepaw", rarity: Rarity.COMMON, type: "Fighting", hp: 40, description: "A small but incredibly strong badger-like creature that wears stone-encrusted gloves.", imageUrl: "SprootMon Art/pebblepaw.png" },
     { id: "18", name: "Star Sprite", rarity: Rarity.RARE, type: "Psychic", hp: 60, description: "It fell from a shooting star.", imageUrl: "https://picsum.photos/seed/starsprite/400/600" },
     { id: "19", name: "Abyssal Serpent", rarity: Rarity.ULTRA_RARE, type: "Dragon", hp: 190, description: "It dwells in the deepest parts of the ocean.", imageUrl: "https://picsum.photos/seed/abyssalserpent/400/600" },
     { id: "20", name: "Golden King", rarity: Rarity.SECRET_RARE, type: "Steel", hp: 250, description: "The ruler of a forgotten golden empire.", imageUrl: "https://picsum.photos/seed/goldenking/400/600" },
 ];
+
+const SHINY_CARD_POOL = [
+    { id: "s1", name: "Shiny Luminox", rarity: Rarity.RARE, type: "Fire", hp: 70, description: "A rare, shimmering version of Luminox.", imageUrl: "SprootMon Art/luminoxshiny.png", isShiny: true },
+    { id: "s2", name: "Shiny Shellshulk", rarity: Rarity.RARE, type: "Water", hp: 80, description: "A rare, shimmering version of Shellshulk.", imageUrl: "SprootMon Art/shellshulkshiny.png", isShiny: true },
+    { id: "s3", name: "Shiny Bloomhare", rarity: Rarity.RARE, type: "Grass", hp: 80, description: "A rare, shimmering version of Bloomhare.", imageUrl: "SprootMon Art/bloomhareshiny.png", isShiny: true },
+    { id: "s4", name: "Shiny Boltcheek", rarity: Rarity.RARE, type: "Electric", hp: 70, description: "A rare, shimmering version of Boltcheek.", imageUrl: "SprootMon Art/boltcheekshiny.png", isShiny: true },
+    { id: "s5", name: "Shiny Umbrafel", rarity: Rarity.ULTRA_RARE, type: "Dark", hp: 90, description: "A rare, shimmering version of Umbrafel.", imageUrl: "SprootMon Art/umbrafelshiny.png", isShiny: true },
+    { id: "s6", name: "Shiny Ferroclast", rarity: Rarity.RARE, type: "Steel", hp: 200, description: "A rare, shimmering version of Ferroclast.", imageUrl: "SprootMon Art/ferroclastshiny.png", isShiny: true },
+    { id: "s7", name: "Shiny Solarix", rarity: Rarity.ULTRA_RARE, type: "Dragon", hp: 160, description: "A rare, shimmering version of Solarix.", imageUrl: "SprootMon Art/solarixshiny.png", isShiny: true },
+    { id: "s8", name: "Shiny Selenalux", rarity: Rarity.ULTRA_RARE, type: "Psychic", hp: 140, description: "A rare, shimmering version of Selenalux.", imageUrl: "SprootMon Art/selenaluxshiny.png", isShiny: true },
+    { id: "s9", name: "Shiny Astracetus", rarity: Rarity.SECRET_RARE, type: "Water", hp: 210, description: "A rare, shimmering version of Astracetus.", imageUrl: "SprootMon Art/astracetusshiny.png", isShiny: true },
+    { id: "s10", name: "Shiny Gloomgrin", rarity: Rarity.SECRET_RARE, type: "Dark", hp: 120, description: "A rare, shimmering version of Gloomgrin.", imageUrl: "SprootMon Art/gloomgrinshiny.png", isShiny: true },
+    { id: "s11", name: "Shiny Fulguraptor", rarity: Rarity.RARE, type: "Electric", hp: 100, description: "A rare, shimmering version of Fulguraptor.", imageUrl: "SprootMon Art/fulguraptorshiny.png", isShiny: true },
+    { id: "s12", name: "Shiny Montlith", rarity: Rarity.RARE, type: "Fighting", hp: 150, description: "A rare, shimmering version of Montlith.", imageUrl: "SprootMon Art/montlithshiny.png", isShiny: true },
+    { id: "s13", name: "Shiny Diamantler", rarity: Rarity.ULTRA_RARE, type: "Psychic", hp: 120, description: "A rare, shimmering version of Diamantler.", imageUrl: "SprootMon Art/diamantlershiny.png", isShiny: true },
+    { id: "s14", name: "Shiny Pyreclasm", rarity: Rarity.ULTRA_RARE, type: "Fire", hp: 170, description: "A rare, shimmering version of Pyreclasm.", imageUrl: "SprootMon Art/pyreclasmshiny.png", isShiny: true },
+    { id: "s15", name: "Shiny Zephyrlit", rarity: Rarity.RARE, type: "Normal", hp: 50, description: "A rare, shimmering version of Zephyrlit.", imageUrl: "SprootMon Art/zephyrlitshiny.png", isShiny: true },
+    { id: "s16", name: "Shiny Glaciwing", rarity: Rarity.RARE, type: "Water", hp: 90, description: "A rare, shimmering version of Glaciwing.", imageUrl: "SprootMon Art/glaciwingshiny.png", isShiny: true },
+    { id: "s17", name: "Shiny Pebblepaw", rarity: Rarity.RARE, type: "Fighting", hp: 50, description: "A rare, shimmering version of Pebblepaw.", imageUrl: "SprootMon Art/pebblepawshiny.png", isShiny: true },
+];
+
+const ALL_CARDS = [...CARD_POOL, ...SHINY_CARD_POOL];
 
 const RARITY_CHANCES = {
     [Rarity.COMMON]: 0.6,
@@ -88,7 +110,7 @@ const Card = ({ card, isNew, className, onClick }) => {
                     </div>
                     <div className="relative h-48 bg-zinc-800 overflow-hidden">
                         <img src=${card.imageUrl} className="w-full h-full object-cover" />
-                        ${card.rarity === Rarity.RARE && html`<div className="absolute inset-0 holographic-rare pointer-events-none" />`}
+                        ${(card.rarity === Rarity.RARE || card.isShiny) && html`<div className="absolute inset-0 holographic-rare pointer-events-none" />`}
                         ${card.rarity === Rarity.ULTRA_RARE && html`<div className="absolute inset-0 holographic-ultra pointer-events-none" />`}
                         ${card.rarity === Rarity.SECRET_RARE && html`<div className="absolute inset-0 holographic-secret pointer-events-none" />`}
                     </div>
@@ -112,7 +134,7 @@ const Card = ({ card, isNew, className, onClick }) => {
     `;
 };
 
-const Pack = ({ cards, onComplete, isNewCard }) => {
+const Pack = ({ cards, onComplete, isNewCard, packName }) => {
     const [isOpen, setIsOpen] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -126,8 +148,8 @@ const Pack = ({ cards, onComplete, isNewCard }) => {
                     <${motion.div} key="pack" initial=${{ scale: 0.8, opacity: 0 }} animate=${{ scale: 1, opacity: 1 }} exit=${{ scale: 1.5, opacity: 0 }} className="relative w-64 h-96 cursor-pointer group" onClick=${handleOpen}>
                         <div className="absolute inset-0 bg-zinc-900 rounded-2xl border-4 border-zinc-800 shadow-2xl overflow-hidden flex flex-col items-center justify-center gap-6">
                             <div className="p-8 flex flex-col items-center gap-4 text-center">
-                                <span className="text-xl font-black tracking-tighter uppercase text-zinc-300">Standard Pack</span>
-                                <span className="text-[10px] uppercase tracking-[0.2em] font-bold text-zinc-500">5 Cards Inside</span>
+                                <span className="text-xl font-black tracking-tighter uppercase text-zinc-300">${packName || "Standard Pack"}</span>
+                                <span className="text-[10px] uppercase tracking-[0.2em] font-bold text-zinc-500">${cards.length} Cards Inside</span>
                             </div>
                             <div className="absolute bottom-4 flex items-center gap-2 text-zinc-500 animate-bounce"><span className="text-[10px] font-black uppercase tracking-widest">Tap to Open</span></div>
                         </div>
@@ -157,7 +179,7 @@ const Collection = ({ collection, onSelectCard }) => {
         <div className="flex flex-col gap-8 w-full max-w-6xl mx-auto px-4 pb-24">
             <h1 className="text-4xl font-black tracking-tighter uppercase text-zinc-100">Collection</h1>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
-                ${CARD_POOL.map((card) => {
+                ${ALL_CARDS.map((card) => {
                     const count = collection[card.id] || 0;
                     const isOwned = count > 0;
                     return html`
@@ -176,6 +198,7 @@ const App = () => {
     const [view, setView] = useState("opening");
     const [collection, setCollection] = useState({});
     const [currentPack, setCurrentPack] = useState(null);
+    const [packType, setPackType] = useState(null);
     const [selectedCard, setSelectedCard] = useState(null);
 
     useEffect(() => {
@@ -187,19 +210,28 @@ const App = () => {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(collection));
     }, [collection]);
 
-    const generatePack = () => {
+    const generatePack = (type) => {
         const pack = [];
-        for (let i = 0; i < 5; i++) {
-            const rand = Math.random();
-            let cumulative = 0, selectedRarity = Rarity.COMMON;
-            for (const [rarity, chance] of Object.entries(RARITY_CHANCES)) {
-                cumulative += chance;
-                if (rand <= cumulative) { selectedRarity = rarity; break; }
+        const pool = type === "shiny" ? SHINY_CARD_POOL : CARD_POOL;
+        const count = type === "shiny" ? 3 : 5;
+
+        for (let i = 0; i < count; i++) {
+            if (type === "shiny") {
+                // Shiny pack just picks random from shiny pool
+                pack.push(pool[Math.floor(Math.random() * pool.length)]);
+            } else {
+                const rand = Math.random();
+                let cumulative = 0, selectedRarity = Rarity.COMMON;
+                for (const [rarity, chance] of Object.entries(RARITY_CHANCES)) {
+                    cumulative += chance;
+                    if (rand <= cumulative) { selectedRarity = rarity; break; }
+                }
+                const rarityPool = pool.filter(c => c.rarity === selectedRarity);
+                pack.push(rarityPool[Math.floor(Math.random() * rarityPool.length)]);
             }
-            const rarityPool = CARD_POOL.filter(c => c.rarity === selectedRarity);
-            pack.push(rarityPool[Math.floor(Math.random() * rarityPool.length)]);
         }
         setCurrentPack(pack);
+        setPackType(type);
         setView("opening");
     };
 
@@ -208,6 +240,7 @@ const App = () => {
         currentPack.forEach(card => { newCollection[card.id] = (newCollection[card.id] || 0) + 1; });
         setCollection(newCollection);
         setCurrentPack(null);
+        setPackType(null);
         setView("collection");
     };
 
@@ -223,7 +256,7 @@ const App = () => {
                 <div className="flex items-center gap-2 px-3 py-1 bg-zinc-900 rounded-full border border-zinc-800">
                     <${Lucide.Sparkles} size=${14} className="text-yellow-500" />
                     <span className="text-xs font-black uppercase tracking-widest">
-                        ${Object.keys(collection).length} / ${CARD_POOL.length}
+                        ${Object.keys(collection).length} / ${ALL_CARDS.length}
                     </span>
                 </div>
             </header>
@@ -233,9 +266,23 @@ const App = () => {
                     ${view === "opening" ? html`
                         <div key="opening" className="flex flex-col items-center justify-center min-h-[60vh] px-6">
                             ${currentPack ? html`
-                                <${Pack} cards=${currentPack} onComplete=${handlePackComplete} isNewCard=${id => !collection[id]} />
+                                <${Pack} 
+                                    cards=${currentPack} 
+                                    onComplete=${handlePackComplete} 
+                                    isNewCard=${id => !collection[id]} 
+                                    packName=${packType === "shiny" ? "Shiny Pack" : "Standard Pack"}
+                                />
                             ` : html`
-                                <button onClick=${generatePack} className="px-12 py-6 bg-zinc-100 text-zinc-950 rounded-2xl font-black uppercase tracking-widest hover:scale-105 transition-transform">Open Pack</button>
+                                <div className="flex flex-col sm:flex-row gap-8">
+                                    <div className="flex flex-col items-center gap-4">
+                                        <button onClick=${() => generatePack("standard")} className="px-12 py-6 bg-zinc-100 text-zinc-950 rounded-2xl font-black uppercase tracking-widest hover:scale-105 transition-transform shadow-[0_0_30px_rgba(255,255,255,0.1)]">Standard Pack</button>
+                                        <span className="text-[10px] font-bold uppercase tracking-widest text-zinc-500">5 Cards • All Rarities</span>
+                                    </div>
+                                    <div className="flex flex-col items-center gap-4">
+                                        <button onClick=${() => generatePack("shiny")} className="px-12 py-6 bg-gradient-to-r from-yellow-400 via-white to-yellow-400 text-zinc-950 rounded-2xl font-black uppercase tracking-widest hover:scale-105 transition-transform shadow-[0_0_30px_rgba(255,215,0,0.2)] animate-shimmer bg-[length:200%_100%]">Shiny Pack</button>
+                                        <span className="text-[10px] font-bold uppercase tracking-widest text-yellow-500/50">3 Cards • Guaranteed Shiny</span>
+                                    </div>
+                                </div>
                             `}
                         </div>
                     ` : html`
